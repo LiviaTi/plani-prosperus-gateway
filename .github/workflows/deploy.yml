@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['livia'] # Executa ao atualizar a branch livia
+    branches: ['main'] # Executa ao atualizar a branch livia
 
 permissions:
   contents: read
