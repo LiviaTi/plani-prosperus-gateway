@@ -1,4 +1,4 @@
-const WHATSAPP_URL = "https://wa.me/5516997904725?text=Olá! Gostaria de solicitar um orçamento.";
+const WHATSAPP_URL = "https://wa.me/5516997273923?text=Olá! Gostaria de solicitar um orçamento.";
 
 const WhatsAppFloat = () => {
   return (

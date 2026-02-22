@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
-const WHATSAPP_URL = "https://wa.me/5516997904725?text=Olá! Gostaria de solicitar um orçamento.";
+const WHATSAPP_URL = "https://wa.me/5516997273923?text=Olá! Gostaria de solicitar um orçamento.";
 
 const Hero = () => {
   return (

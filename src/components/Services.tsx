@@ -62,7 +62,7 @@ const Services = () => {
                 <h3 className="font-heading font-bold text-lg mb-2">{service.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-5">{service.desc}</p>
                 <a
-                  href={`https://wa.me/5516997904725?text=${encodeURIComponent(service.whatsappMsg)}`}
+                  href={`https://wa.me/5516997273923?text=${encodeURIComponent(service.whatsappMsg)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-sm font-semibold text-primary hover:text-accent transition-colors"
