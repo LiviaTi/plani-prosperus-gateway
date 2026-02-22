@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo.png";
 
-const WHATSAPP_URL = "https://wa.me/5516997273923?text=Olá! Gostaria de solicitar um orçamento.";
+const WHATSAPP_URL = "https://api.whatsapp.com/send?phone=5516997273923&text=Olá! Gostaria de solicitar um orçamento.";
 
 const navItems = [
   { label: "Início", href: "#inicio" },

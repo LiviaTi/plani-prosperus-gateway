@@ -1,6 +1,6 @@
 import { MapPin, Phone, Clock, Mail } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/5516997273923?text=Olá! Gostaria de solicitar um orçamento.";
+const WHATSAPP_URL = "https://api.whatsapp.com/send?phone=5516997273923&text=Olá! Gostaria de solicitar um orçamento.";
 
 const Contact = () => {
   return (

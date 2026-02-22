@@ -62,7 +62,7 @@ const Personas = () => {
               <span className="text-xs text-primary font-medium mb-3">{persona.highlight}</span>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6 flex-1">{persona.desc}</p>
               <a
-                href={`https://wa.me/5516997273923?text=${encodeURIComponent(persona.whatsappMsg)}`}
+                href={`https://api.whatsapp.com/send?phone=5516997273923&text=${encodeURIComponent(persona.whatsappMsg)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-3 rounded-md font-semibold text-sm transition-all hover:scale-[1.02]"
